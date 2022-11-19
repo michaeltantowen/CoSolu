@@ -1,0 +1,51 @@
+/* Import Font */
+@font-face {
+  font-family: "Light";
+  src: url(../Assets/Font/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: "Regular";
+  src: url(../Assets/Font/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Bold";
+  src: url(../Assets/Font/OpenSans-Bold.ttf);
+}
+/* Body CSS */
+* {
+  font-family: Light;
+}
+/* Navbar */
+.navbar-brand {
+  font-family: Bold;
+  font-size: 2vmax;
+}
+.nav-link {
+  font-family: Regular;
+}
+.nav-link:hover {
+  color: #6ad8ee !important;
+}
+.nav-link.active {
+  font-family: Bold !important;
+}
+.nav-link.active:hover {
+  color: #0dcaf0 !important;
+}
+/* Top-3 */
+.top-3 .h1 {
+  font-family: Regular;
+}
+/* Footer */
+#footer-brand {
+  font-family: Bold;
+  font-size: 2vmax;
+}
+/* Template Album */
+#title {
+  font-family: Bold;
+}
+/* Template Detail */
+.template-title {
+  font-family: Bold !important;
+}
